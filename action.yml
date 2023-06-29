@@ -1,0 +1,17 @@
+name: 'Addition of two numbers'
+description: 'Take two numbers and sum it up'
+inputs:
+  number_1:  # id of input
+    description: 'First number'
+    required: true
+    default: 0
+  number_2:  # id of input
+    description: 'second number'
+    required: true
+    default: 0
+outputs:
+  sum: # id of output
+    description: 'The sum of two numbers'
+runs:
+  using: 'node16'
+  main: 'index.js'
