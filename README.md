@@ -16,7 +16,7 @@ This action prints Addition of two numbers to the log.
 ## Example usage
 
 ```yaml
-uses: actions/hello-world-javascript-action@e76147da8e5c81eaf017dede5645551d4b94427b
+uses: actions/first-hello-world-javascript-custom-action@v1.1
 with:
   number_1: 0
   number_2 : 0
