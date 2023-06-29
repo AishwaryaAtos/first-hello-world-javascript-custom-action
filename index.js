@@ -7,9 +7,9 @@ try {
   console.log(`First number ${num_1}!`);
   const num_2 = core.getInput('number_2');
   console.log(`Second number ${num_2}!`);
-  const add = num_1 + num_2
+  const add = int(num_1) + int(num_2)
   console.log(`Addition of two numbers ${add}!`);
-  core.setOutput("sum", add);
+  core.setOutput("sum", int(add));
   // Get the JSON webhook payload for the event that triggered the workflow
   const payload = JSON.stringify(github.context.payload, undefined, 2)
   console.log(`The event payload: ${payload}`);
